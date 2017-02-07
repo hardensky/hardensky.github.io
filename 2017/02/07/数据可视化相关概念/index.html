@@ -101,7 +101,7 @@
           <!-- Date -->
           <span class="date-time info">On
             <span class="date">2017-02-07</span>
-            <span class="time">14:03:28</span>
+            <span class="time">15:59:19</span>
           </span>
           
           <!--  Categories  -->
@@ -130,6 +130,21 @@
 <p><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial" target="_blank" rel="external">canvas</a></strong>： <code>&lt;canvas&gt;</code> 是 HTML5 新增的元素，可使用JavaScript脚本来绘制图形。例如：画图，合成照片，创建动画甚至实时视频处理与渲染。</p>
 <p><strong><a href="https://github.com/mrdoob/three.js" target="_blank" rel="external">Three.js</a></strong>： Three.js是一个3D JavaScript库，提供了基于 <code>&lt;canvas&gt;</code>、 <code>&lt;svg&gt;</code>、 <code>CSS3D</code> 和 <code>WebGL</code>的渲染器。<a href="http://www.ituring.com.cn/minibook/792" target="_blank" rel="external">《Three.js入门指南》</a></p>
 <p><strong><a href="https://d3js.org/" target="_blank" rel="external">D3.js</a></strong>：D3 的全称是（Data-Driven Documents)，是一个基于数据驱动文档的库，主要是基于SVG实现。<a href="http://wiki.jikexueyuan.com/project/d3wiki/" target="_blank" rel="external">《极客学院入门教程》</a></p>
+<h3 id="区别联系"><a href="#区别联系" class="headerlink" title="区别联系"></a>区别联系</h3><p>Canvas 和 SVG 都允许在浏览器中创建图形，但是它们在根本上是不同的。</p>
+<p>#####SVG 有如下特点：</p>
+<ul>
+<li>SVG 绘制的是矢量图，因此对图像进行放大不会失真。</li>
+<li>基于 XML，可以为每个元素添加 JavaScript 事件处理器。</li>
+<li>每个图形均视为对象，更改对象的属性，图形也会改变。</li>
+<li>不适合游戏应用。</li>
+</ul>
+<p>#####Canvas 有如下特点：</p>
+<ul>
+<li>绘制的是位图，图像放大后会失真。</li>
+<li>不支持事件处理器。</li>
+<li>能够以 .png 或 .jpg 格式保存图像</li>
+<li>适合游戏应用</li>
+</ul>
 
         </div>
         
