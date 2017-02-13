@@ -172,8 +172,11 @@ mark {
 }
 
 /* 代码片断 */
-pre, code, pre tt {
+/*pre, code, pre tt {
   font-family: Courier, 'Courier New', monospace;
+}*/
+.code .bash .line{
+  height: 18px;
 }
 
 pre {
@@ -360,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #23241f;
+  background: #2d2d2d;
 }
 .hljs,
 .hljs-tag,

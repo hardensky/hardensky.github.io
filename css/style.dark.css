@@ -172,8 +172,11 @@ mark {
 }
 
 /* 代码片断 */
-pre, code, pre tt {
+/*pre, code, pre tt {
   font-family: Courier, 'Courier New', monospace;
+}*/
+.code .bash .line{
+  height: 18px;
 }
 
 pre {
