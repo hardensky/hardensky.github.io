@@ -175,7 +175,7 @@ mark {
 /*pre, code, pre tt {
   font-family: Courier, 'Courier New', monospace;
 }*/
-.code .bash .line{
+.code .line{
   height: 18px;
 }
 
